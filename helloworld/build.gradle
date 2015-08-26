@@ -1,0 +1,9 @@
+task helloWorld << {
+   println 'Welcome to JCG Gradle Tutorial'
+}
+
+task foo {
+	doLast {
+		println 'foo here'
+	}
+}
